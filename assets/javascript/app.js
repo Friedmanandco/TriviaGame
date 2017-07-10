@@ -3,7 +3,7 @@
     //  Interval Demonstration
     //  Set our number counter to 100.
     var number = 200;
-
+    var clock = number;
     //  Variable that will hold our interval ID when we execute
     //  the "run" function
     var intervalId;
@@ -76,7 +76,9 @@
       _("test_status").innerHTML = "Test Completed";
       position = 0;
       correct = 0;
+        stop();
       return false;
+      
         }
 
 
